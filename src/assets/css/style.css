@@ -6,6 +6,12 @@
 @import "./partials/_reset.css";
 @import "./partials/_grid.min.css";
 
+/* Components */
+@import "./components/button/index.css";
+@import "./components/title/index.css";
+
+@import "./components/header/index.css";
+
 html,
 body {
   font-family: "Roboto", sans-serif;

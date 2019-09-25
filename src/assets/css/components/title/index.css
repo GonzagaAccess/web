@@ -1,0 +1,8 @@
+.title {
+  font-size: 2.4em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.55em;
+
+  color: var(--text-dark);
+}
