@@ -1,0 +1,24 @@
+{
+  "name": "gonzaga-access.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/GonzagaAccess/gonzaga-access.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel src/index.html",
+    "build": "./node_modules/.bin/parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laugustofrontend/gonzaga-access.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laugustofrontend/gonzaga-access.github.io/issues"
+  },
+  "homepage": "https://github.com/laugustofrontend/gonzaga-access.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
