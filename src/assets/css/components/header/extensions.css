@@ -1,0 +1,22 @@
+.extensions {
+  position: absolute;
+  left: 40px;
+  bottom: 0px;
+  width: calc(100% - 40px);
+  border-top-left-radius: 0.2em;
+  padding-left: 109px;
+  padding-top: 62px;
+  margin-top: 120px;
+
+  background: var(--text-light);
+}
+
+.extensions .text {
+  width: 60%;
+  margin-bottom: 1.2em;
+
+  color: var(--text-dark-medium);
+}
+.extensions .text:nth-child(4) {
+  margin-bottom: 1.5em;
+}

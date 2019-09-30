@@ -1,0 +1,32 @@
+.button {
+  font-size: 1.03em;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  border-radius: 0.2em;
+  max-width: 140px;
+  padding: 0.75em;
+  width: 100%;
+  height: auto;
+  margin-top: 1.3em;
+  margin-right: 1.3em;
+
+  border: 0.1em solid var(--text-light);
+
+  color: var(--text-light);
+
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.5s;
+  transition-timing-function: linear;
+}
+.button:hover {
+  background: var(--text-light);
+  color: var(--blue);
+}
+
+.button--blue {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: var(--text-light);
+}

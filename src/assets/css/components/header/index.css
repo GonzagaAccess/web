@@ -1,0 +1,14 @@
+@import "./logo.css";
+@import "./menu.css";
+@import "./call.css";
+@import "./extensions.css";
+
+.header {
+  padding-top: 1.25em;
+  padding-bottom: calc(120px + 373px);
+  position: relative;
+
+  align-items: center;
+
+  background-color: var(--blue);
+}
