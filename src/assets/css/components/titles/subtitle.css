@@ -1,0 +1,6 @@
+.subtitle {
+    font-size: 1.125em;
+    font-weight: normal;
+    
+    color: var(--text-dark-medium);
+}
