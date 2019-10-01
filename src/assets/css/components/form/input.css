@@ -1,0 +1,16 @@
+.input {
+    font-size: .875em;
+    
+    box-sizing: border-box;
+    display: block;
+    padding: .8em 1em;
+    width: 100%;
+    max-height: 53px;
+    
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    
+    border-color: rgba(0, 0, 0, .2);
+    color: var(--text-medium);
+}
