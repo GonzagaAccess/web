@@ -14,9 +14,12 @@
 @import "./components/titles/index.css";
 @import "./components/titles/subtitle.css";
 @import "./components/link/index.css";
+@import "./components/form/index.css";
 
+/* Blocks  */
 @import "./components/header/index.css";
 @import "./components/extensions/index.css";
+@import "./components/contact/index.css";
 
 html,
 body {

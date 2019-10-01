@@ -1,0 +1,11 @@
+.contact {
+    margin-top: 2em;
+}
+
+.contact .form-group {
+    margin-bottom: .4em;
+}
+
+.contact .form-group:last-child {
+    margin-bottom: 0;
+}
