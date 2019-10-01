@@ -1,4 +1,4 @@
-.extensions {
+.about {
   position: absolute;
   left: 40px;
   bottom: 0px;
@@ -11,12 +11,12 @@
   background: var(--text-light);
 }
 
-.extensions .text {
+.about .text {
   width: 60%;
   margin-bottom: 1.2em;
 
   color: var(--text-dark-medium);
 }
-.extensions .text:nth-child(4) {
+.about .text:nth-child(4) {
   margin-bottom: 1.5em;
 }

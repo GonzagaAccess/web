@@ -6,11 +6,17 @@
 @import "./partials/_reset.css";
 @import "./partials/_grid.min.css";
 
+/* General */
+@import "./general/main.css";
+
 /* Components */
 @import "./components/button/index.css";
-@import "./components/title/index.css";
+@import "./components/titles/index.css";
+@import "./components/titles/subtitle.css";
+@import "./components/link/index.css";
 
 @import "./components/header/index.css";
+@import "./components/extensions/index.css";
 
 html,
 body {
