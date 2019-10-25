@@ -1,3 +1,8 @@
+.extensions {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .extensions__list {
     margin-top: 1.5em;
 }

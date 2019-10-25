@@ -17,6 +17,10 @@
 
 @import "./components/header/index.css";
 @import "./components/extensions/index.css";
+@import "./components/input/label.css";
+@import "./components/input/input.css";
+@import "./components/input/text-area.css";
+
 
 html,
 body {

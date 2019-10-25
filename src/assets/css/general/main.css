@@ -3,3 +3,14 @@
     margin-bottom: 3.875em;
     padding: 0 9.375em;
 }
+
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.form__content{
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
