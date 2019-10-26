@@ -1,13 +1,12 @@
 .about {
-  position: absolute;
-  left: 40px;
-  bottom: 0px;
   width: calc(100% - 40px);
   border-top-left-radius: 0.2em;
-  padding-left: 109px;
   padding-top: 62px;
+  margin-bottom: 20px;
   margin-top: 120px;
-
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   background: var(--text-light);
 }
 
@@ -17,6 +16,7 @@
 
   color: var(--text-dark-medium);
 }
+
 .about .text:nth-child(4) {
   margin-bottom: 1.5em;
 }

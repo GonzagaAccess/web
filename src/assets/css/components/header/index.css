@@ -5,10 +5,26 @@
 
 .header {
   padding-top: 1.25em;
-  padding-bottom: calc(120px + 373px);
   position: relative;
 
   align-items: center;
 
   background-color: var(--blue);
+}
+
+.header-menu-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quem-somos-prop {
+  flex: 1 1 auto;
+  margin: 30px 30px 30px 70px;
+
+}
+
+.about__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
