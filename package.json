@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/GonzagaAccess/gonzaga-access.github.io#readme",
   "devDependencies": {
+    "eslint": "^6.6.0",
     "parcel-bundler": "^1.12.3"
   }
 }
