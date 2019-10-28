@@ -9,8 +9,20 @@
     padding-right: 0rem;
 }
 
+.centent__contact {
+    width: 959px;
+  
+}
+
 .form__content{
     margin-top: 20px;
     padding-left: 0px;
+    padding-right: 0px;
+
 }
 
+@media screen and  (max-width: 600px) {
+    .content {
+        padding: 0 3.375em;
+    }
+} 
