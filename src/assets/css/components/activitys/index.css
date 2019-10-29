@@ -1,19 +1,21 @@
 .content__activity {
     padding-left: 0px;
     padding-right: 0px;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-
 .content__activity__list {
     margin-top: 1.5em;
 }
+
 .content__activity__list__item {
   
     flex-basis: auto;
     width: 400px;
+
 
     margin-right: 20px;
     margin-bottom: 20px;
@@ -27,9 +29,6 @@
     border-color: rgba(0, 0, 0, .2);
 }
 
-.content__activity__list__item {
-    margin-left: 18px;   
-}
 
 .content__activity__list__item__icon,
 .content__activity__list__item__title {
@@ -64,13 +63,9 @@
 
 @media screen and  (max-width: 1116px) {
     .content__activity__list__item {
-        flex: 1 400px;
-   
-        
+        flex: 1 400px;  
     }
 } 
-
-
 
 @media screen and  (max-width: 930px) {
     .content__activity__list__item {
