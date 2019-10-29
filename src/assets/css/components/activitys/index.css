@@ -1,7 +1,6 @@
 .content__activity {
     padding-left: 0px;
     padding-right: 0px;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -16,7 +15,6 @@
     flex-basis: auto;
     width: 400px;
 
-
     margin-right: 20px;
     margin-bottom: 20px;
     
@@ -27,6 +25,11 @@
     border-style: solid;
     
     border-color: rgba(0, 0, 0, .2);
+}
+
+
+.content__activity__list__item {
+    margin-left: 18px;   
 }
 
 
