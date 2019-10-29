@@ -32,12 +32,12 @@
     margin-left: 18px;   
 }
 
-
 .content__activity__list__item__icon,
 .content__activity__list__item__title {
     display: inline-block;
     margin-bottom: 1em;
 }
+
 .content__activity__list__item__icon__text {
     display: flex;
     align-items: center;
@@ -75,6 +75,12 @@
         display: flex;
         flex-flow: row wrap;
         flex-grow: 1;
+    }
+} 
+
+@media screen and  (max-width: 500px) {
+    .content__activity__list__item {
+       width: 100%;
     }
 } 
 
