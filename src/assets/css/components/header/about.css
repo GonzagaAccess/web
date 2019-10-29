@@ -20,3 +20,10 @@
 .about .text:nth-child(4) {
   margin-bottom: 1.5em;
 }
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding-left: 34px;
+    padding-right: 54px;
+  }
+}
