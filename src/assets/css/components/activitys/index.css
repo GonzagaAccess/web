@@ -64,13 +64,9 @@
 
 @media screen and  (max-width: 1116px) {
     .content__activity__list__item {
-        flex: 1 400px;
-   
-        
+        flex: 1 400px;  
     }
 } 
-
-
 
 @media screen and  (max-width: 930px) {
     .content__activity__list__item {
