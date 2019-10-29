@@ -12,4 +12,4 @@ jobs:
       - name: ESLint checks
         uses: gimenete/eslint-action@1.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
