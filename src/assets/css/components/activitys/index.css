@@ -6,10 +6,10 @@
     flex-wrap: wrap;
 }
 
-
 .content__activity__list {
     margin-top: 1.5em;
 }
+
 .content__activity__list__item {
   
     flex-basis: auto;
@@ -27,9 +27,11 @@
     border-color: rgba(0, 0, 0, .2);
 }
 
+
 .content__activity__list__item {
     margin-left: 18px;   
 }
+
 
 .content__activity__list__item__icon,
 .content__activity__list__item__title {
