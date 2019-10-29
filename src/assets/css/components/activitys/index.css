@@ -76,4 +76,9 @@
     }
 } 
 
+@media screen and  (max-width: 500px) {
+    .content__activity__list__item {
+       width: 100%;
+    }
+} 
 
