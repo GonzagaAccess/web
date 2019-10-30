@@ -1,26 +1,33 @@
 .header__menu ul {
   list-style-type: none;
-  justify-items: flex-end;
-  align-items: flex-end;
+  justify-items: center;
+  align-items: center;
 }
+
 .header__menu .header__menu__item {
   display: inline-block;
 }
+
 .header__menu .header__menu__item__link {
   line-height: 1.2em;
   text-decoration: none;
-
   border-radius: 0.2em;
   display: block;
   padding: 0.793em;
-
   color: var(--text-light);
-
   transition-property: background, color;
   transition-duration: 0.5s, 0.5s;
   transition-timing-function: linear;
 }
+
 .header__menu .header__menu__item__link:hover {
   background: var(--text-light);
-  color: var(--blue);
+  color: var(--color-blue);
+}
+
+.navbar-toggler>div {
+  width: 20px;
+  height: 2px;
+  background-color: lightgray;
+  margin: 6px 0;
 }

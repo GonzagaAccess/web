@@ -22,11 +22,11 @@
 }
 .button:hover {
   background: var(--text-light);
-  color: var(--blue);
+  color: var(--color-blue);
 }
 
 .button--blue {
-  border-color: var(--blue);
-  background: var(--blue);
+  border-color: var(--color-blue);
+  background: var(--color-blue);
   color: var(--text-light);
 }

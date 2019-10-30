@@ -1,9 +1,6 @@
 .about {
   width: calc(100% - 40px);
   border-top-left-radius: 0.2em;
-  padding-top: 62px;
-  margin-bottom: 20px;
-  margin-top: 120px;
   display: flex;
   flex-direction: column;
   text-align: center;

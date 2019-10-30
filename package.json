@@ -20,5 +20,8 @@
   "homepage": "https://github.com/GonzagaAccess/gonzaga-access.github.io#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
   }
 }

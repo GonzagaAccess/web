@@ -3,9 +3,9 @@
 }
 .extensions__list__item {
     max-width: calc(33.333% - 27px);
-    margin-right: 20px;
     margin-bottom: 20px;
-    
+    transform: scale(0.9);
+
     padding: 1.5em 1em;
     
     border-radius: 2px;
@@ -13,10 +13,6 @@
     border-style: solid;
     
     border-color: rgba(0, 0, 0, .2);
-}
-.extensions__list__item:first-child,
-.extensions__list__item:nth-child(3n + 4) {
-    margin-left: 18px;
 }
 
 .extensions__list__item__icon,
@@ -36,7 +32,7 @@
 
     padding-left: .5em;
     
-    color: var(--blue);
+    color: var(--color-blue);
 }
 
 .extensions__list__item__text {

@@ -18,6 +18,11 @@
 @import "./components/header/index.css";
 @import "./components/extensions/index.css";
 
+/* Node_modules */
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 html,
 body {
   font-family: "Roboto", sans-serif;

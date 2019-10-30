@@ -6,10 +6,8 @@
 .header {
   padding-top: 1.25em;
   position: relative;
-
   align-items: center;
-
-  background-color: var(--blue);
+  background-color: var(--color-blue);
 }
 
 .header-menu-parent {
@@ -17,14 +15,33 @@
   justify-content: space-evenly;
 }
 
-.quem-somos-prop {
-  flex: 1 1 auto;
-  margin: 30px 30px 30px 70px;
-
-}
-
 .about__button {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+.quem-somos-prop {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__call__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.introduction-section {
+  padding: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  .tablet-props {
+    margin-top: 20px;
+    text-align: center;
+  }
 }

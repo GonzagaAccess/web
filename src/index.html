@@ -11,46 +11,52 @@
 
 <body>
   <div class="container-fluid" style="padding: 0px;">
-    <header class="header row">
-      <div class="header__logo col-lg-3">
-        <img class="header-logo-prop" src="assets/images/logo.svg" alt="Gonzaga Access" />
-      </div>
-      <nav class="header__menu col-lg-4 col-lg-offset-5">
-        <ul class="header-menu-parent">
-          <li class="header__menu__item">
-            <a class="header__menu__item__link" href="#" alt="Quem somos">Quem Somos</a>
-          </li>
-          <li class="header__menu__item">
-            <a class="header__menu__item__link" href="#" alt="Extensões">Extensões</a>
-          </li>
-          <li class="header__menu__item">
-            <a class="header__menu__item__link" href="#" alt="Contato">Contato</a>
-          </li>
-          <li class="header__menu__item">
-            <a class="header__menu__item__link" href="#" alt="Apoie">Apoie</a>
-          </li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg header">
+        <img class="pl-4 pt-2" src="assets/images/logo.svg" alt="Gonzaga Access" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          style="border: 1px solid lightgray;">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+        <div class="collapse navbar-collapse header__menu" id="navbarSupportedContent">
+          <ul class="navbar-nav header-menu-parent ml-auto">
+            <li class="header__menu__item nav-item mr-4">
+              <a class="header__menu__item__link" href="#" alt="Quem somos">Quem Somos</a>
+            </li>
+            <li class="header__menu__item nav-item mr-4">
+              <a class="header__menu__item__link" href="#" alt="Extensões">Extensões</a>
+            </li>
+            <li class="header__menu__item nav-item mr-4">
+              <a class="header__menu__item__link" href="#" alt="Contato">Contato</a>
+            </li>
+            <li class="header__menu__item nav-item mr-4">
+              <a class="header__menu__item__link" href="#" alt="Apoie">Apoie</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <div class="header__call col-lg-6 col-lg-offset-3">
-        <div class="row">
-          <div class="header__call__title col-lg-6">
-            <h1>
-              Nós acreditamos em uma internet acessível à todos.
-            </h1>
-            <div class="header__call_buttons">
-              <a class="button" href="#" alt="Saiba mais">Saiba mais</a>
-              <a class="button" href="#" alt="Extensões">Extensões</a>
-            </div>
-          </div>
-          <div class="header__call__image col-lg-6">
-            <img src="assets/images/undraw_chore_list_iof3.png"
-              alt="Nós acreditamos em uma internet acessível à todos." />
-          </div>
+    </header>
+    <div class="row header introduction-section">
+      <div class="col-12 col-md-7 text-sm-center">
+        <h1 class="header__call__title">
+          Nós acreditamos em uma internet acessível à todos.
+        </h1>
+        <div class="header__call_buttons">
+          <a class="button" href="#" alt="Saiba mais">Saiba mais</a>
+          <a class="button" href="#" alt="Extensões">Extensões</a>
         </div>
       </div>
-      <div class="row quem-somos-prop">
-        <div class="col-sm-12">
-          <div class="about">
+      <div class="col-sm-12 col-md-5 pl-4 tablet-props">
+        <img class="img-fluid" src="assets/images/undraw_chore_list_iof3.png" alt="Nós acreditamos em uma internet acessível à todos." />
+      </div>
+    </div>
+    <div class="row header">
+      <div class="col-sm-12 quem-somos-prop">
+        <div class="about">
+          <div class="about-text">
             <h2 class="about__title">Quem Somos</h2>
             <p class="about__text">
               Somos um grupo de jovens desenvolvedores que acredita que o espaço
@@ -73,22 +79,18 @@
           </div>
         </div>
       </div>
-    </header>
-
+    </div>
     <main class="content row">
       <div class="extensions col-lg-12">
         <h2 class="extensions__title title">
           Extensões
         </h2>
-
         <p class="extensions__subtitle subtitle">
           Escutando a sua nessecidade, desenvolvemos e disponibilizamos, de maneira gratuita, extensões que
           facilitam o uso de diversos aplicativo e sites.
         </p>
-
         <div class="extensions__list row">
-
-          <div class="extensions__list__item col-lg-4">
+          <div class="extensions__list__item col-12 col-md-6 col-lg-4">
             <div class="extensions__list__item__icon__text">
               <div class="extensions__list__item__icon">
                 <img src="./assets/images/icons/eye.svg" alt="eye_svg_icon" />
@@ -103,8 +105,7 @@
               </p>
             </div>
           </div>
-
-          <div class="extensions__list__item col-lg-4">
+          <div class="extensions__list__item col-12 col-md-6 col-lg-4">
             <div class="extensions__list__item__icon__text">
               <div class="extensions__list__item__icon">
                 <img src="./assets/images/icons/ear.svg" alt="ear_svg_icon" />
@@ -119,8 +120,7 @@
               </p>
             </div>
           </div>
-
-          <div class="extensions__list__item col-lg-4">
+          <div class="extensions__list__item col-12 col-md-6 col-lg-4">
             <div class="extensions__list__item__icon__text">
               <div class="extensions__list__item__icon">
                 <img src="./assets/images/icons/brain.svg" alt="brain_svg_icon" />
@@ -135,8 +135,7 @@
               </p>
             </div>
           </div>
-
-          <div class="extensions__list__item col-lg-4">
+          <div class="extensions__list__item col-12 col-md-6 col-lg-4">
             <div class="extensions__list__item__icon__text">
               <div class="extensions__list__item__icon">
                 <img src="./assets/images/icons/hand.svg" alt="hand_svg_icon" />
@@ -151,8 +150,7 @@
               </p>
             </div>
           </div>
-
-          <div class="extensions__list__item col-lg-4">
+          <div class="extensions__list__item col-12 col-md-6 col-lg-4">
             <div class="extensions__list__item__icon__text">
               <div class="extensions__list__item__icon">
                 <img src="./assets/images/icons/eye.svg" alt="eye_svg_icon" />
@@ -167,12 +165,16 @@
               </p>
             </div>
           </div>
-
         </div> <!-- end div list extensions -->
       </div> <!-- end div extensions -->
-
     </main>
   </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+  integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+  integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </html>
