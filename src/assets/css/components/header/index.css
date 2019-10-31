@@ -11,3 +11,9 @@
   background-color: var(--blue);
 }
 
+
+@media screen and (max-width: 1423px) {
+  .header {
+    padding-bottom: calc(120px + 300px);
+  }
+}
