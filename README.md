@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<h1 align="center">Welcome to gonzaga-access.github.io 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/GonzagaAccess/gonzaga-accesshub.io.git#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/GonzagaAccess/gonzaga-accesshub.io.git/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/GonzagaAccess/gonzaga-accesshub.io.git/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/GonzagaAccess/gonzaga-access.github.io" />
+  </a>
+</p>
 
-You can use the [editor on GitHub](https://github.com/GonzagaAccess/gonzaga-access.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> You can use the [editor on GitHub](https://github.com/GonzagaAccess/gonzaga-access.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 🏠 [Homepage](https://github.com/GonzagaAccess/gonzaga-access.github.io#readme)
 
-### Markdown
+This project is a website dedicated to be a place where we share all projects with the world.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+_Note: This website is under development and the informations on it is not fully consistent_
 
-```markdown
-Syntax highlighted code block
+## Install
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+npm install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Running
 
-### Jekyll Themes
+```sh
+npm run dev
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GonzagaAccess/gonzaga-access.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Author
 
-### Support or Contact
+* Github: [@GonzagaAccess](https://github.com/GonzagaAccess)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/GonzagaAccess/gonzaga-access.github.io/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+This project is [MIT](https://github.com/GonzagaAccess/gonzaga-accesshub.io.git/blob/master/LICENSE) licensed.
