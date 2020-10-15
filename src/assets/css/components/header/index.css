@@ -1,7 +1,7 @@
-@import "./logo.css";
-@import "./menu.css";
-@import "./call.css";
-@import "./about.css";
+@import './logo.css';
+@import './menu.css';
+@import './call.css';
+@import './about.css';
 
 .header {
   padding-top: 1.25em;
@@ -9,8 +9,8 @@
   position: relative;
   align-items: center;
   background-color: var(--blue);
+  margin: auto;
 }
-
 
 @media screen and (max-width: 1423px) {
   .header {
