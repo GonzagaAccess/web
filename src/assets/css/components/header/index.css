@@ -9,7 +9,6 @@
   position: relative;
   align-items: center;
   background-color: var(--blue);
-  margin: auto;
 }
 
 @media screen and (max-width: 1423px) {

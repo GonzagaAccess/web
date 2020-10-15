@@ -67,6 +67,7 @@
   .header__call_buttons {
     display: flex;
     justify-content: space-around;
+    padding: 5px;
   }
   .button {
     margin-right: 0px;
