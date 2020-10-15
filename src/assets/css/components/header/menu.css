@@ -1,7 +1,5 @@
 .header__menu ul {
   list-style-type: none;
-  justify-items: flex-end;
-  align-items: flex-end;
 }
 .header__menu .header__menu__item {
   display: inline-block;
@@ -9,24 +7,22 @@
 .header__menu .header__menu__item__link {
   line-height: 1.2em;
   text-decoration: none;
-
   border-radius: 0.2em;
   display: block;
   padding: 0.793em;
-
   color: var(--text-light);
-
   transition-property: background, color;
   transition-duration: 0.5s, 0.5s;
   transition-timing-function: linear;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
 }
 .header__menu .header__menu__item__link:hover {
   background: var(--text-light);
   color: var(--blue);
 }
-
-
-
 
 @media screen and (max-width: 1423px) {
   .header__call h1 {
@@ -41,9 +37,9 @@
   .header__call__title {
     width: 100%;
   }
-  .header__call__image  {
+  .header__call__image {
     padding-top: 80px;
-     margin: 0 auto;
+    margin: 0 auto;
   }
 }
 
@@ -52,10 +48,18 @@
     padding-right: 54px;
     padding-left: 54px;
   }
+  .header__menu {
+    margin: 10px 30px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .header__call__title  {
+  .header__menu ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .header__call__title {
     font-size: 13px;
     padding-right: 0px;
     padding-left: 0px;
@@ -63,6 +67,7 @@
   .header__call_buttons {
     display: flex;
     justify-content: space-around;
+    padding: 5px;
   }
   .button {
     margin-right: 0px;
